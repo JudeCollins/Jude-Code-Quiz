@@ -3,7 +3,7 @@
 body{
 	font-size: 20px;
 	font-family: 'Work Sans', sans-serif;
-	color: #333;
+	color: rgb(5, 5, 5);
   font-weight: 300;
   text-align: center;
   background-color: #f8f6f0;
@@ -13,7 +13,7 @@ h1{
   margin: 0px;
   padding: 10px;
   font-size: 20px;
-  background-color: #444;
+  background-color: rgb(128, 11, 128);
   color: #fff;
 }
 .question{
@@ -32,7 +32,7 @@ h1{
 button{
   font-family: 'Work Sans', sans-serif;
 	font-size: 22px;
-	background-color: #279;
+	background-color: rgb(128, 11, 128);
 	color: #fff;
 	border: 0px;
 	border-radius: 3px;
@@ -41,7 +41,7 @@ button{
 	margin-bottom: 20px;
 }
 button:hover{
-	background-color: #38a;
+	background-color: rgb(58, 194, 40);
 }
 
 
@@ -66,3 +66,43 @@ button:hover{
   height: 200px;
   margin-top: 40px;
 }
+
+
+/* timer css*/
+body {
+    background: #dddddd;
+    margin: 24px;
+  }
+  
+  .timer {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: white;
+  }
+  
+  .timer__part {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+  }
+  
+  .timer__btn--start {
+    background: #00b84c;
+  }
+  
+  .timer__btn--stop {
+    background: #ff0256;
+  }
+  
